@@ -11,6 +11,14 @@ package se.nackademin.animals;
  */
 public class Animal {
 
+  // Instansvariabler
+  protected String color;
+
+  // Konstruktor
+  public Animal(){
+    this.color = "";
+  }
+
   public void eat(){
     System.out.println("I can eat!");
   }

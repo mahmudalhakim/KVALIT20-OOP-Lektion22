@@ -11,8 +11,17 @@ package se.nackademin.animals;
  */
 public class Dog extends Animal{
 
+  public void bark(){
+    System.out.println("I can bark!");
+  }
+
+  @Override
+  public void eat() {
+    System.out.println("I eat dog food!");
+  }
+
   @Override
   public String toString() {
-    return "Jag är en hund!";
+    return "Jag är en " + color + " hund!";
   }
 }
